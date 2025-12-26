@@ -1,0 +1,144 @@
+body {
+    background-color: #fff;
+    color: black;
+    margin: 0%;
+    font-family: sans-serif;
+    
+}
+
+header {
+    background-color: #C8102E;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header h1 {
+    color: rgba(248, 227, 66, 0.984);
+    font-weight: 700;
+}
+
+header nav {
+    display: flex;
+    gap: 15px;
+    margin-left: auto;
+    padding: 25px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+main {
+    text-align: center;
+    background-color: #FFC72C;
+    padding: 80px;
+}
+
+main h2 {
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 35px;
+    margin: 25px;
+} 
+
+main h3 {
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 35px;
+    margin: 25px;
+}
+
+main a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    border: 2px solid rgba(184, 4, 4, 0.94);
+    background-color: rgba(184, 4, 4, 0.94);
+    display: inline-block;
+    margin: 25px;
+    padding: 15px 38px;
+    border-radius: 25px;
+}
+
+main p {
+  font-size: large;
+  font-weight: 600;
+}
+
+section {
+    text-align: center;
+}
+
+h1 {
+   color:  rgba(184, 4, 4, 0.94);;
+}
+
+.box h3 {
+    color: #C8102E;
+}
+
+h2 {
+    color: #C8102E;
+    font-weight: 600;
+}
+section .box {
+    display: inline-block;
+    border: 2px solid rgba(246, 245, 245, 0.925);
+    background-color: white;
+    margin: 10px;
+    padding: 20px 230px;
+    border-radius: 20px;
+}
+
+section {
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+form {
+    text-align: center;
+    margin: auto;
+    max-width: 450px;
+}
+
+form {
+  max-width: 420px;
+  margin: 40px auto;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Inputs & textarea */
+form input,
+form textarea,
+form select {
+  padding: 12px;  
+}
+
+
+
+.button {
+    background-color: #FFC72C;
+    border: 2px solid #FFC72C;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+footer {
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.903);
+    padding: 40px;
+}
